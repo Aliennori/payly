@@ -130,6 +130,8 @@ header{
 }
 .right-desc{
     width: 50%;
+    transform: translateX(100%);
+    animation: slideIn 1s forwards;
 }
 .right-desc img{
     width: 100%;
@@ -137,7 +139,17 @@ header{
  }
 .left-desc{
     width: 50%;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
 
+}
+
+@keyframes slideIn {
+    
+    to {
+        transform: translateX(0);
+    }
+    
 }
 .mb-store{
     display: none;
@@ -173,6 +185,16 @@ width: 100%;
 .benefitsImg{
     height: 90%;
     width: 100%;
+}
+
+.pay,
+.bnf{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.pay:hover,
+.bnf:hover{
+    transform: scale(1.1);
 }
 /*-------------about---------------*/
 .abt{
