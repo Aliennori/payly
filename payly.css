@@ -131,7 +131,7 @@ header{
 .right-desc{
     width: 50%;
     transform: translateX(100%);
-    animation: slideIn 1s forwards;
+    animation: slideIn 3s forwards;
 }
 .right-desc img{
     width: 100%;
@@ -140,7 +140,7 @@ header{
 .left-desc{
     width: 50%;
     transform: translateX(-100%);
-    animation: slideIn 1s forwards;
+    animation: slideIn 3s forwards;
 
 }
 
